@@ -1,0 +1,24 @@
+Tree {
+    Trunk {
+        Branch {
+            thickness: 5
+            long: true
+            apples: [
+                true,
+                false,
+                1,
+                42,
+                3.14,
+                Apple {
+                    color: "red"
+                    size: 1
+                },
+                Apple {
+                    color: "green"
+                    size: 0.4
+                }
+            ]
+        }
+        Branch {}
+    }
+}

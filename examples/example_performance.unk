@@ -1,0 +1,35 @@
+Root {
+    a: 52
+    b: 67
+    c: 3.14
+    d: true
+    e: false
+    f: [
+        ListItem {},
+        ListItem {
+            name: "My list item"
+            value: 512
+            default: 22
+            content: [
+                ContentItem {},
+                ContentItem {}
+            ]
+        }
+    ]
+    ItemOne {
+        Child {
+            prop: 7
+        }
+        Child {
+            prop: 8
+        }
+    }
+    ItemTwo {
+        Child {
+            prop: "text1"
+        }
+        Child {
+            prop: "text2"
+        }
+    }
+}

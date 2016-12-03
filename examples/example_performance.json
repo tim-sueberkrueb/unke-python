@@ -1,0 +1,80 @@
+{
+    "properties": {
+        "d": true,
+        "a": 52,
+        "f": [
+            {
+                "properties": {},
+                "name": "ListItem",
+                "children": []
+            },
+            {
+                "properties": {
+                    "value": 512,
+                    "default": 22,
+                    "name": "My list item",
+                    "content": [
+                        {
+                            "properties": {},
+                            "name": "ContentItem",
+                            "children": []
+                        },
+                        {
+                            "properties": {},
+                            "name": "ContentItem",
+                            "children": []
+                        }
+                    ]
+                },
+                "name": "ListItem",
+                "children": []
+            }
+        ],
+        "e": false,
+        "c": 3.14,
+        "b": 67
+    },
+    "name": "Root",
+    "children": [
+        {
+            "properties": {},
+            "name": "ItemOne",
+            "children": [
+                {
+                    "properties": {
+                        "prop": 7
+                    },
+                    "name": "Child",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "prop": 8
+                    },
+                    "name": "Child",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "properties": {},
+            "name": "ItemTwo",
+            "children": [
+                {
+                    "properties": {
+                        "prop": "text1"
+                    },
+                    "name": "Child",
+                    "children": []
+                },
+                {
+                    "properties": {
+                        "prop": "text2"
+                    },
+                    "name": "Child",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

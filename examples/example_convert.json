@@ -1,0 +1,48 @@
+{
+    "name": "Root",
+    "children": [
+        {
+            "name": "Container",
+            "children": [
+                {
+                    "name": "SubContainer",
+                    "children": [],
+                    "properties": {
+                        "list": [
+                            {
+                                "name": "Entry",
+                                "children": [],
+                                "properties": {
+                                    "text": "World",
+                                    "id": 1
+                                }
+                            },
+                            {
+                                "name": "Entry",
+                                "children": [],
+                                "properties": {
+                                    "text": "Hello",
+                                    "id": 2
+                                }
+                            },
+                            {
+                                "name": null,
+                                "children": [],
+                                "properties": {
+                                    "id:": 3
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "SubContainer",
+                    "children": [],
+                    "properties": {}
+                }
+            ],
+            "properties": {}
+        }
+    ],
+    "properties": {}
+}

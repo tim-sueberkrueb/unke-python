@@ -1,0 +1,22 @@
+Tree {
+    Trunk {
+        Branch {
+            apples: [
+                Apple {
+                    color: "red"
+                    size: 1
+                },
+                Apple {
+                    color: "green"
+                    size: 0.4
+                },
+                {
+                    /* Anonymous node */
+                    color: "pink"
+                    size: 5
+                }
+            ]
+        }
+        Branch {}
+    }
+}

@@ -17,7 +17,7 @@ def parse(text: str, object_type: objects.BaseObject=objects.BoostedObject,
     :param object_type: Class to be used to instantiate objects
     :param doc: Document to use
     :param object_created_hook: Function to be called after an object was created
-    :return: Japis document
+    :return: Unke document
     """
 
     # Lex: retrieve tokens
